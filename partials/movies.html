@@ -1,0 +1,10 @@
+
+<h1>Your results: </h1>
+
+  <div class="row" ng-repeat="movie in searchedMovies">
+  <div class="col-xs-6 col-md-3" class="list">
+    <a href="#/movies/{{movie.imdbID}}" class="thumbnail">
+      <h3>{{movie.Title}}</h3>
+      <h5>{{movie.Year}}</h5>
+    </a>
+  </div>
